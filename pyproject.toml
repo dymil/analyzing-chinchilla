@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Chinchilla_Replication"
+version = "0.0.1"
+dependencies = [
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "ipykernel",
+    "jax",
+    "autograd",
+    "numpy < 2.0.0", # blame autograd
+    "optax",
+]
+
+[tool.setuptools]
+py-modules = []

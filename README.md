@@ -10,3 +10,4 @@ You can find the analysis in the `data_analysis.ipynb` notebook. If you want to 
   * `data_extraction.ipynb`: The notebook used to extract the data from the figure.
   * `data/svg_extracted_data.csv`: The extracted data from the figure.
   * `data_analysis.ipynb`: Analysis of the extracted data.
+  * `data_analysis_jax.py`: Cleaned up the above and redid in Jax for speedups.
